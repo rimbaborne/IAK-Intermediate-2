@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="suhu 5"
+        android:textSize="55dp"
+        android:textStyle="italic"
+        android:typeface="serif"/>
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tes title"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:textColor="#fa9804"/>
+    <TextView
+        android:id="@+id/dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="informarsi cuaca"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:typeface="serif"/>
+
+</LinearLayout>
